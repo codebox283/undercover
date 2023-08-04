@@ -48,6 +48,8 @@ flutter:
     - assets/images/phone_icon.png
     - assets/images/telephone.png
     - assets/images/call.png
+    - assets/images/google3d.png
+    - assets/images/google3dd.png
   # Replace 'images' with the actual folder name where 'vector_3d_image.svg' is located
 
 

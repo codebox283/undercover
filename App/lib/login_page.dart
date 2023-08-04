@@ -43,73 +43,130 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   SizedBox(height: 540),
                   Text(
-                    "Undercover",   // text line
+                    "UNDERCOVER",   // text line
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 22,
+                      fontSize: 18,
                     ),
                   ),
-                  SizedBox(height: 20),  // add space using this
+                  SizedBox(height: 20) ,  // add space using this
+
+                  // ElevatedButton(
+                  //   style: ElevatedButton.styleFrom(
+                  //     backgroundColor: Colors.blue,
+                  //     onPrimary: Colors.white,
+                  //   ),
+                  //   onPressed: () {},
+                  //   // child: Ink.image(
+                  //   //   // image: AssetImage('assets/images/google3dd.png'),
+                  //   //   // alignment: Alignment.centerRight,
+                  //   //
+                  //   //   fit: BoxFit.contain, // Adjust this to your preference
+                  //     child: InkWell(
+                  //       onTap: () {
+                  //         // Handle button press here
+                  //       },
+                  //       child: Container(
+                  //         width: 170, // Set your preferred width
+                  //         height: 50, // Set your preferred height
+                  //         alignment: Alignment.centerLeft,
+                  //         child: Text(
+                  //           'CONTINUE WITH GOOGLE',
+                  //           style: TextStyle(color: Colors.white),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  //
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue, // background
+                      onPrimary: Colors.white, // foreground
+                    ),
+
+                    onPressed: () { },
+                    child: Text('CONTINUE WITH GOOGLE'),
+                  ),
+
+
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue, // background
+                      onPrimary: Colors.white, // foreground
+                    ),
+
+                    onPressed: () { },
+                    child: Text('CONTINUE WITH PHONE'),
+                  ),
+
+
+
+
+
+
+
+
+
                   //sign in button
-                  SizedBox(
-                    width: 300, // Adjust the width of the button section
-                    child: Container(
-                      padding: EdgeInsets.all(18),
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/images/google_icon.png', // Replace with the path to your image icon
-                            width: 30, // Set the desired width of the image icon
-                            height: 30, // Set the desired height of the image icon
-                          ),
-                          SizedBox(width: 1),
-                          Text(
-                            ' Continue With Google',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 8),
-                  SizedBox(
-                    width: 300, // Adjust the width of the button section
-                    child: Container(
-                      padding: EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                        color: myColor,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/images/call.png', // Replace with the path to your image icon
-                            width: 30, // Set the desired width of the image icon
-                            height: 30, // Set the desired height of the image icon
-                          ),
-                          SizedBox(width: 1),
-                          Text(
-                            '  Continue With Phone',
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
+                  // SizedBox(
+                  //   width: 300, // Adjust the width of the button section
+                  //   child: Container(
+                  //     padding: EdgeInsets.all(18),
+                  //     decoration: BoxDecoration(
+                  //       color: Colors.black,
+                  //       borderRadius: BorderRadius.circular(12),
+                  //     ),
+                  //     child: Row(
+                  //       mainAxisAlignment: MainAxisAlignment.center,
+                  //       children: [
+                  //         Image.asset(
+                  //           'assets/images/google_icon.png', // Replace with the path to your image icon
+                  //           width: 30, // Set the desired width of the image icon
+                  //           height: 30, // Set the desired height of the image icon
+                  //         ),
+                  //         SizedBox(width: 1),
+                  //         Text(
+                  //           ' Continue With Google',
+                  //           style: TextStyle(
+                  //             color: Colors.white,
+                  //             fontWeight: FontWeight.bold,
+                  //             fontSize: 18,
+                  //           ),
+                  //         ),
+                  //       ],
+                  //     ),
+                  //   ),
+                  // ),
+                  // SizedBox(height: 8),
+                  // SizedBox(
+                  //   width: 300, // Adjust the width of the button section
+                  //   child: Container(
+                  //     padding: EdgeInsets.all(20),
+                  //     decoration: BoxDecoration(
+                  //       color: myColor,
+                  //       borderRadius: BorderRadius.circular(12),
+                  //     ),
+                  //     child: Row(
+                  //       mainAxisAlignment: MainAxisAlignment.center,
+                  //       children: [
+                  //         Image.asset(
+                  //           'assets/images/call.png', // Replace with the path to your image icon
+                  //           width: 30, // Set the desired width of the image icon
+                  //           height: 30, // Set the desired height of the image icon
+                  //         ),
+                  //         SizedBox(width: 1),
+                  //         Text(
+                  //           '  Continue With Phone',
+                  //           style: TextStyle(
+                  //             color: Colors.black,
+                  //             fontWeight: FontWeight.bold,
+                  //             fontSize: 18,
+                  //           ),
+                  //         ),
+                  //       ],
+                  //     ),
+                  //   ),
+                  // ),
                   SizedBox(height: 20),
                   // not a member / register now
                   Row(
