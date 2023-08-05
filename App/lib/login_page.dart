@@ -94,7 +94,6 @@ class _LoginPageState extends State<LoginPage> {
                       backgroundColor: Colors.blue, // background
                       onPrimary: Colors.white, // foreground
                     ),
-
                     onPressed: () { },
                     child: Text('CONTINUE WITH PHONE'),
                   ),
